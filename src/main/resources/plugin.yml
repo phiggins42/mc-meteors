@@ -1,0 +1,8 @@
+name: MeteorShowers
+version: '${project.version}'
+main: org.gcmakers.mc.MeteorPlugin
+api-version: '1.20'
+commands:
+    shower:
+      description: End the world, eventually.
+      usage: /<command> [duration]
